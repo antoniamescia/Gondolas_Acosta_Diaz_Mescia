@@ -1,0 +1,15 @@
+clase Producto
+    atributo codigo
+    atributo nombre
+    atributo precio
+
+---> Todo esto tiene que estar encapsulado
+
+clase Gondola
+    list<Producto> --> AsReadOnly
+
+    metodo agregar
+
+    metodo eliminar
+
+---> Todo esto tiene que estar encapsulado (solo se puede acceder a la lista a través de los métodos agregar y eliminar)
